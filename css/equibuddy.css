@@ -1,0 +1,57 @@
+.equibuddy{
+  text-align: center;
+}
+.equi-text{
+  margin-top: 80px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.equi-title{
+  font-weight: 500;
+  text-align: center;
+}
+.equi-paragraph{
+  text-align: center;
+  line-height: 26px;
+}
+
+.view-equi-pdf-button{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 15px;
+  margin-right: 12px;
+}
+
+.demo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.demo-title{
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.embed-container-1{
+  height: 90vh; 
+  display: flex;
+}
+.figma-embed{
+  margin-bottom: 16px;
+  margin-top: 16px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:800px){
+  .equi-text{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}

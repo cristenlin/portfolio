@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+a{
+  color: #25e4ff;
+  text-decoration: none;
+}
+
+body{
+  padding: 0px 80px 10px 80px;
+}
+
+button{
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  color:#434343;
+  border-color: #434343;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+button:hover{
+  background-color: #434343;
+  color:white;
+}
+button:active{
+  opacity: 0.7;
+}
+
+#top-anchor{
+  height: 66px;
+}
+.scroll-to-top{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 70px;
+  font-weight: 500;
+}
+
+@media (max-width:1030px){
+  body{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
