@@ -117,6 +117,17 @@ hr{
   cursor: pointer;
 }
 
+@media (max-width:500px){
+  .works-heading{
+    font-size: 24px;
+  }
+  .work-title{
+    font-size: 22px;
+  }
+  .work-info{
+    font-size: 14px;
+  }
+}
 @media (max-width:600px){
   #bold-intro-title{
     font-size: 40px;
