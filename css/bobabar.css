@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(255, 248, 238);
+}
 .boba-bar{
   text-align: center;
 }
@@ -7,12 +10,14 @@
   margin-right: 20%;
 }
 .bb-title{
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+  color: #d7843b;
 }
 .bb-paragraph{
   text-align: center;
   line-height: 26px;
+  color: #4e4540;
 }
 
 .view-bb-pdf-button{
@@ -23,6 +28,24 @@
   padding-bottom: 9px;
   padding-right: 15px;
   margin-right: 12px;
+  border-color: #d7843b;
+  color: #d7843b;
+  background-color: white;
+}
+.view-bb-pdf-button:hover{
+  background-color: rgb(255, 248, 238);
+  color: #d7843b;
+}
+
+.portfolio-container{
+  margin-left: 8%;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-img{
+  width: 100%;
 }
 
 .demo-container{
@@ -53,9 +76,23 @@
   height: 100%;
 }
 
+.scroll-to-top-text{
+  color: #d7843b;
+}
+
 @media (max-width:800px){
   .bb-text{
     margin-left: 8%;
     margin-right: 8%;
+  }
+  .portfolio-container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media (max-width:650px){
+  .bb-text{
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }

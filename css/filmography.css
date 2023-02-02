@@ -62,9 +62,15 @@ hr{
   text-decoration: none;
 }
 
+@media (max-width:650px){
+  .paragraph-container{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
 @media (max-width:750px){
   .a-film{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }

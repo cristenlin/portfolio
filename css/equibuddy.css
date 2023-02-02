@@ -1,3 +1,7 @@
+body{
+  background-color: #b8def4;
+}
+
 .equibuddy{
   text-align: center;
 }
@@ -7,8 +11,9 @@
   margin-right: 20%;
 }
 .equi-title{
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+  color: #0e9cae;
 }
 .equi-paragraph{
   text-align: center;
@@ -23,7 +28,26 @@
   padding-bottom: 9px;
   padding-right: 15px;
   margin-right: 12px;
+  border-color: #0e9cae;
+  color: #0e9cae;
+  background-color: #f8fbfd;
 }
+.view-equi-pdf-button:hover{
+  background-color: #dff0f9;
+  color: #0e9cae;
+}
+
+.portfolio-container{
+  margin-left: 8%;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-img{
+  width: 100%;
+}
+
 
 .demo-container{
   display: flex;
@@ -49,9 +73,23 @@
   height: 100%;
 }
 
+.scroll-to-top-text{
+  color: #0e9cae;
+}
+
 @media (max-width:800px){
   .equi-text{
     margin-left: 8%;
     margin-right: 8%;
+  }
+  .portfolio-container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media (max-width:650px){
+  .equi-text{
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
