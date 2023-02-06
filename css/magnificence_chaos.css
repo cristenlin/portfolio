@@ -130,6 +130,12 @@ hr{
   .reversed-row-grid .mc-h2-title{
     margin-top: 0px;
   }
+  .reversed-row-grid .row-grid-text-container{
+    order: 2;
+  }
+  .reversed-row-grid .img-container{
+    order: 1;
+  }
   .column-grid-title-info-container{
     grid-template-columns: 1fr;
     row-gap: 0px;
