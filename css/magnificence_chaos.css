@@ -75,10 +75,10 @@ hr{
 .column-grid .painting-info{
   margin-top: 10px;
 }
-.blinded .row-grid-text-container{
+.reversed-row-grid .row-grid-text-container{
   margin-top: 0%;
 }
-.blinded .mc-h2-title{
+.reversed-row-grid .mc-h2-title{
   margin-top: 4%;
 }
 .modern-zombie .row-grid-text-container{
@@ -91,6 +91,21 @@ hr{
   grid-template-columns: 1.3fr 1fr;
   column-gap: 60px;
 }
+
+@media (max-width:930px){
+  .a-mc-painting{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  body{
+    padding: 0px 30px 10px 30px;
+  }
+}
+@media (max-width:840px){
+  .row-grid{
+    column-gap: 50px;
+  }
+}
 @media (max-width:750px){
   .a-mc-painting{
     margin-left: 0%;
@@ -98,5 +113,38 @@ hr{
   }
   body{
     padding: 0px 30px 10px 30px;
+  }
+}
+@media (max-width:700px){
+  .row-grid{
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .row-grid-text-container{
+    margin-top: 0px;
+  }
+  .modern-zombie .row-grid{
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .reversed-row-grid .mc-h2-title{
+    margin-top: 0px;
+  }
+  .column-grid-title-info-container{
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+  }
+  .column-grid .painting-description{
+    margin-top: 22px;
+  }
+  .mc-text{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width:500px){
+  .mc-text{
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
