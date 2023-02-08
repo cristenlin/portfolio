@@ -16,18 +16,13 @@
   height: 75.33px;
   white-space: nowrap;
 }
-
-/* The animation code */
 @keyframes slide-text {
   from {width: 0px;}
   to {width: 100%;}
 }
-
-/* The element to apply the animation to */
 .slide-text {
-  animation: slide-text 3s ease-in-out;
+  animation: slide-text 2s ease-in-out;
 }
-
 
 .bold-intro-paragraph{
   font-family: 'Open Sans', sans-serif;
@@ -159,7 +154,7 @@ hr{
 }
 @media (max-width:600px){
   #bold-intro-title{
-    font-size: 40px;
+    font-size: 36px;
   }
   .bold-intro-paragraph{
     font-size: 18px;
