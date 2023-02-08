@@ -156,6 +156,7 @@ hr{
   #bold-intro-title{
     font-size: 40px;
     white-space: normal;
+    height: fit-content;
   }
   .slide-text{
     animation: none !important;
