@@ -12,7 +12,23 @@
   color: #25e4ff;
   letter-spacing: 1px;
   margin-bottom: 22px;
+  overflow: hidden;
+  height: 75.33px;
+  white-space: nowrap;
 }
+
+/* The animation code */
+@keyframes slide-text {
+  from {width: 0px;}
+  to {width: 100%;}
+}
+
+/* The element to apply the animation to */
+.slide-text {
+  animation: slide-text 3s ease-in-out;
+}
+
+
 .bold-intro-paragraph{
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -28,6 +44,19 @@
   color: #434343;
   margin-bottom: 1px;
 }
+
+/* The animation code */
+@keyframes slide-img {
+  from {margin-left: 80%;
+    width: 0px;}
+  to {width: 100%;}
+}
+
+/* The element to apply the animation to */
+.slide-img {
+  animation: slide-img 2s ease-in-out;
+}
+
 .profile-photo{
   width: 240px;
   height: 0.71;
