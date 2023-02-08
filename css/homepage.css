@@ -154,7 +154,8 @@ hr{
 }
 @media (max-width:600px){
   #bold-intro-title{
-    font-size: 36px;
+    font-size: 40px;
+    white-space: normal;
   }
   .bold-intro-paragraph{
     font-size: 18px;
