@@ -92,6 +92,10 @@ hr{
   column-gap: 30px;
   row-gap: 30px;
 }
+.embed-container{
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
 
 @media (max-width:1000px){
   .content-grid-ep{
