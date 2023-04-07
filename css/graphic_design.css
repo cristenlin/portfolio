@@ -95,6 +95,7 @@ hr{
 .embed-container{
   margin-bottom: 16px;
   margin-top: 50px;
+  display: flex;
 }
 
 @media (max-width:1000px){
