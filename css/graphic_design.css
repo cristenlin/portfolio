@@ -96,6 +96,7 @@ hr{
   margin-bottom: 16px;
   margin-top: 50px;
   display: flex;
+  justify-content: center;
 }
 
 @media (max-width:1000px){
