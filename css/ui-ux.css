@@ -1,0 +1,191 @@
+body{
+  background-color: #f7f7f7;
+}
+.uiux-h1-title{
+  margin-top: 80px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+  color: #4e4540;
+  margin-bottom: -20px;
+}
+.boba-bar{
+  text-align: center;
+}
+.bb-text{
+  margin-top: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.bb-title{
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+  color: #4e4540;
+}
+.bb-paragraph{
+  text-align: left;
+  line-height: 26px;
+  color: #4e4540;
+}
+
+.view-bb-pdf-button{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 15px;
+  border-color: #4e4540;
+  color: #4e4540;
+  background-color: #f7f7f7;
+}
+.view-bb-pdf-button:hover{
+  background-color: white;
+  color: #4e4540;
+}
+
+.portfolio-container{
+  margin-left: 8%;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-img{
+  width: 100%;
+}
+
+.demo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.demo-title{
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  color: #4e4540;
+}
+.embed-container-1{
+  height: 90vh; 
+  display: flex;
+}
+.embed-container-2{
+  height: 105vh;
+  display: flex;
+}
+.figma-embed{
+  margin-bottom: 16px;
+  margin-top: 16px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width:800px){
+  .bb-text{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .portfolio-container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media (max-width:650px){
+  .bb-text{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+hr{
+  width: 300px;
+  background-color: rgb(108, 108, 108);
+  border: none;
+  height: 0.5px;
+  margin-top: 100px;
+}
+
+.equibuddy{
+  text-align: center;
+}
+.equi-text{
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.equi-title{
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+  color: #4e4540;
+}
+.equi-paragraph{
+  text-align: left;
+  line-height: 26px;
+  color: #4e4540;
+}
+
+.view-equi-pdf-button{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 15px;
+  border-color: #4e4540;
+  color: #4e4540;
+  background-color: #f7f7f7;
+}
+.view-equi-pdf-button:hover{
+  background-color: white;
+  color: #4e4540;
+}
+
+.portfolio-container{
+  margin-left: 8%;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-img{
+  width: 100%;
+}
+
+
+.embed-container-1{
+  height: 90vh; 
+  display: flex;
+}
+.figma-embed{
+  margin-bottom: 16px;
+  margin-top: 16px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:800px){
+  .equi-text{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .portfolio-container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media (max-width:650px){
+  .equi-text{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

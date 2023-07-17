@@ -1,0 +1,163 @@
+.magnificence-chaos{
+  text-align: center;
+}
+.mc-text{
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mc-h1-title{
+  margin-top: 80px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: -20px;
+}
+.mc-h2-title{
+  font-weight: 500;
+  text-align: center;
+}
+.mc-paragraph{
+  text-align: left;
+  line-height: 26px;
+}
+
+.a-mc-painting{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+hr{
+  width: 100%;
+  background-color: rgb(108, 108, 108);
+  border: none;
+  height: 0.5px;
+  margin-bottom: 80px;
+}
+.row-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+}
+.column-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+}
+.img-painting{
+  width: 100%;
+}
+.row-grid-text-container{
+  margin-top: 8%;
+}
+.column-grid-title-info-container{
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  row-gap: 30px;
+}
+.mc-h2-title{
+  font-weight: 500;
+  text-align: left;
+  font-size: 24px;
+  line-height: 45px;
+}
+.painting-info{
+  text-align: left;
+  margin-top: 22px;
+  line-height: 26px;
+}
+.painting-description{
+  margin-top: 22px;
+  line-height: 26px;
+}
+.column-grid .painting-description{
+  margin-top: 0px;
+}
+.column-grid .mc-h2-title{
+  margin-top: 0px;
+}
+.column-grid .painting-info{
+  margin-top: 10px;
+}
+.reversed-row-grid .row-grid-text-container{
+  margin-top: 0%;
+}
+.reversed-row-grid .mc-h2-title{
+  margin-top: 4%;
+}
+.modern-zombie .row-grid-text-container{
+  margin-top: 0%;
+}
+.modern-zombie .mc-h2-title{
+  margin-top: 0%;
+}
+.modern-zombie .row-grid{
+  grid-template-columns: 1.3fr 1fr;
+  column-gap: 60px;
+}
+
+@media (max-width:930px){
+  .a-mc-painting{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  body{
+    padding: 0px 30px 10px 30px;
+  }
+}
+@media (max-width:840px){
+  .row-grid{
+    column-gap: 50px;
+  }
+}
+@media (max-width:750px){
+  .a-mc-painting{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  body{
+    padding: 0px 30px 10px 30px;
+  }
+}
+@media (max-width:700px){
+  .row-grid{
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .row-grid-text-container{
+    margin-top: 0px;
+  }
+  .modern-zombie .row-grid{
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .reversed-row-grid .mc-h2-title{
+    margin-top: 0px;
+  }
+  .reversed-row-grid .row-grid-text-container{
+    order: 2;
+  }
+  .reversed-row-grid .img-container{
+    order: 1;
+  }
+  .column-grid-title-info-container{
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+  }
+  .column-grid .painting-description{
+    margin-top: 22px;
+  }
+  .mc-text{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width:500px){
+  .mc-text{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
