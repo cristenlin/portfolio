@@ -82,7 +82,7 @@ hr{
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
-  row-gap: 35px;
+  row-gap: 30px;
 }
 .a-work{
   cursor: pointer;
@@ -97,7 +97,7 @@ hr{
 }
 .work-img-container{
   overflow: hidden;
-  max-height: 84%;
+  max-height: 98%;
 }
 .work-img{
   width: 100%;
