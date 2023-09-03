@@ -1,5 +1,5 @@
 body{
-  background-color: #f7f7f7;
+  background-color: #efefef;
 }
 .uiux-h1-title{
   margin-top: 80px;
@@ -78,6 +78,12 @@ body{
   height: 105vh;
   display: flex;
 }
+.embed-instructions{
+  text-align: center;
+  font-size: 14px;
+  color: #68605c;
+  margin-bottom: 6px;
+}
 .figma-embed{
   margin-bottom: 16px;
   margin-top: 16px;
@@ -86,6 +92,11 @@ body{
   height: 100%;
 }
 
+@media (max-width:900px){
+  .embed-container-1{
+    height: 450px;
+  }
+}
 
 @media (max-width:800px){
   .bb-text{
@@ -101,6 +112,9 @@ body{
   .bb-text{
     margin-left: 0%;
     margin-right: 0%;
+  }
+  .embed-container-1{
+    height: 350px;
   }
 }
 

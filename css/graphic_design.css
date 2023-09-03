@@ -1,3 +1,6 @@
+body {
+  background-color: #efefef;
+}
 .graphic-design{
   text-align: center;
 }
@@ -37,6 +40,11 @@ hr{
   text-align: left;
   line-height: 26px;
 }
+.gd-bms-paragraph{
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 22px;
+}
 .content-container{
   margin-left: 10%;
   margin-right: 10%;
@@ -62,11 +70,34 @@ hr{
   width: 100%;
   max-width: 100%;
 }
-.content-grid-ep{
+.bms-icon-focus-area{
+  margin-top: 20px;
+  width: 74%;
+}
+.content-grid-icons{
   display: grid;
-  grid-template-columns: 0.33fr 1fr;
-  column-gap: 30px;
+  place-items: center;
+  grid-template-columns: 1fr;
   row-gap: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.content-grid-bms-infographic{
+  display: grid;
+  grid-template-columns: 1fr 0.55fr;
+  column-gap: 30px;
+}
+.bms-infographic-poster{
+  width: 100%
+}
+.content-grid-bms-infographic-ip{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+}
+.an-image-ep{
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .content-grid-c{
   display: grid;
@@ -88,7 +119,7 @@ hr{
 }
 .content-grid-dp{
   display: grid;
-  grid-template-columns: 0.56fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   row-gap: 30px;
 }
@@ -125,20 +156,27 @@ hr{
   body{
     padding: 0px 30px 10px 30px;
   }
-  .content-grid-ep{
-    grid-template-columns: 1fr;
+  .content-grid-bms-infographic{
+    column-gap: 15px;
+  }
+  .content-grid-bms-infographic-ip{
+    row-gap: 8px;
+  }
+  .an-image-ep{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .electronic-ep{
+    width: 0%;
+    height: 0%;
   }
   .content-grid-c{
     grid-template-columns: 1fr;
   }
   .content-grid-ip{
-    grid-template-columns: 1fr;
-  }
-  .content-grid-ac{
-    grid-template-columns: 1fr;
-  }
-  .content-grid-dp{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
   }
 }
 
@@ -148,6 +186,10 @@ hr{
     padding-right: 0%;
   }
   .content-container{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .content-grid-icons{
     margin-left: 0%;
     margin-right: 0%;
   }

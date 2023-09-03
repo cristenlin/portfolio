@@ -1,0 +1,165 @@
+body {
+  background-color: #fef9f2;
+}
+.graphic-design{
+  text-align: center;
+}
+.b-h1-title{
+  margin-top: 80px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: -16px;
+}
+.a-b-project{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+hr{
+  width: 300px;
+  background-color: rgb(108, 108, 108);
+  border: none;
+  height: 0.5px;
+}
+.b-h2-title{
+  margin-top: 40px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+}
+.paragraph-container{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0;
+}
+.b-paragraph{
+  margin-top: 22px;
+  text-align: left;
+  line-height: 26px;
+}
+.content-container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.content-header{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.b-h3-title{
+  font-weight: 500;
+  font-size: 24px;
+}
+.b-subtitle{
+  margin-left: 12px;
+  font-weight: 500;
+  margin-top: 21px;
+  line-height: 26px;
+  color: #a9a9a9;
+}
+.b-h4-title{
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.small-top-gap{
+  margin-top: 8px;
+}
+.b-centered-small-title{
+  margin-bottom: 0px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 24px;
+}
+.embed-container{
+  margin-bottom: 16px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.image-div{
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.an-image{
+  width: 100%;
+  max-width: 100%;
+}
+.embed-instructions{
+  text-align: center;
+  font-size: 14px;
+  color: #525252;
+  margin-top: 24px;
+}
+.figma-embed{
+  margin-bottom: 16px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.embed-container{
+  height: 90vh; 
+  display: flex;
+  margin-top: 12px;
+}
+.demo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width:750px){
+  body{
+    padding: 0px 30px 10px 30px;
+  }
+}
+
+@media (max-width:900px){
+  .image-div{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .embed-container{
+    height: 450px;
+  }
+}
+
+@media (max-width:680px){
+  .image-div{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width:650px){
+  .paragraph-container{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .embed-container{
+    height: 350px;
+  }
+}
+
+@media (max-width:700px){
+  .content-header{
+    flex-direction: column;
+  }
+  .b-subtitle{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .b-h3-title{
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width:450px){
+  .embed-container{
+    height: 300px;
+  }
+}
