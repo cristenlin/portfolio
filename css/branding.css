@@ -89,6 +89,10 @@ hr{
   width: 100%;
   max-width: 100%;
 }
+.image-div-wide{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 .embed-instructions{
   text-align: center;
   font-size: 14px;
@@ -100,6 +104,12 @@ hr{
   margin: 0 auto;
   width: 100%;
   height: 100%;
+}
+.pdf-embed{
+  margin-bottom: 16px;
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
 }
 .embed-container{
   height: 90vh; 
@@ -130,6 +140,10 @@ hr{
 
 @media (max-width:680px){
   .image-div{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .image-div-wide{
     margin-left: 0;
     margin-right: 0;
   }
